@@ -1,0 +1,47 @@
+Api call in react - js 
+----------------------
+
+ajax - asynch await - it simplifies the syntax and makes the code more readable by avoiding callback nesting and chaining
+----
+
+fetch - data conversion done by the user
+axios - react library - data conversion done by the axios - npm i axios
+
+methods in axios
+----------------
+
+post
+get
+put
+patch
+delete
+
+
+Router URL Param
+----------------
+ when you want to create a Route that uses a URL parameter, you do so by including a 
+  in front of the value you pass to Route's path prop
+
+access url router params
+-----------------------
+
+useParams - hook
+
+
+DeStructuring
+-------------
+convert code to simple and short
+Eg : 
+user={name:"anu",age:23,place:"kochi"}
+
+var name=user.name
+var age=user.age
+var place=user.place
+
+var {name}=user
+var {age}=user
+var {place}=user
+
+After DeStructuring
+
+var {name,age,place}=user
